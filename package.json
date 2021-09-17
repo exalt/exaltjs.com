@@ -1,0 +1,17 @@
+{
+    "name": "exaltjs.com",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "exalt dev",
+        "build": "exalt build",
+        "start": "exalt start"
+    },
+    "dependencies": {
+        "@exalt/core": "^0.6.2"
+    },
+    "devDependencies": {
+        "@exalt/cli": "^0.6.0",
+        "@exalt/toolchain": "^0.6.7"
+    }
+}

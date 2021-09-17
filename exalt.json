@@ -1,0 +1,8 @@
+{
+    "name": "exaltjs.com",
+    "input": "src/index.js",
+    "toolchain": "@exalt/toolchain",
+    "toolchainOptions": {
+        "prerender": true
+    }
+}
