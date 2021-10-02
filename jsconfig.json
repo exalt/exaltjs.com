@@ -1,5 +1,13 @@
 {
     "compilerOptions": {
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "baseUrl": "./src",
+        "paths": {
+            "@components/*": ["components/*"],
+            "@pages/*": ["pages/*"]
+        }
+    },
+    "typeAcquisition": {
+        "exclude": ["jsonc-parser", "source-map"]
     }
 }

@@ -1,8 +1,12 @@
 {
-    "name": "exaltjs.com",
+    "name": "Exalt",
     "input": "src/index.js",
     "toolchain": "@exalt/toolchain",
     "toolchainOptions": {
-        "prerender": true
+        "prerender": true,
+        "paths": {
+            "@components": "src/components",
+            "@pages": "src/pages"
+        }
     }
 }

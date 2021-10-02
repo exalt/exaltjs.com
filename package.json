@@ -8,10 +8,15 @@
         "start": "exalt start"
     },
     "dependencies": {
-        "@exalt/core": "^0.6.2"
+        "@exalt/core": "^0.6.3",
+        "@exalt/router": "^0.6.5",
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "@popperjs/core": "^2.10.1",
+        "bootstrap": "^5.1.1",
+        "gumshoejs": "^5.1.2"
     },
     "devDependencies": {
-        "@exalt/cli": "^0.6.0",
-        "@exalt/toolchain": "^0.6.7"
+        "@exalt/cli": "^0.6.1",
+        "@exalt/toolchain": "^0.6.13"
     }
 }
