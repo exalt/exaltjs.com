@@ -16,7 +16,7 @@ export class Header extends Component {
                             ${docs && html`<docs-sidebar-toggler />`}
                             <div class="site-logo">
                                 <a href="/" class="navbar-brand">
-                                    <img class="logo-icon me-2" src="assets/exalt_icon.svg" alt="logo" width="40px"
+                                    <img class="logo-icon me-2" src="/assets/exalt_icon.svg" alt="logo" width="40px"
                                         height="40px" />
                                     <span class="logo-text">Exalt</span>
                                 </a>
