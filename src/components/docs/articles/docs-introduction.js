@@ -73,7 +73,7 @@ export class DocsIntroduction extends Component {
                     </p>
                     <p>
                         If you are using VSCode, you can get a better development experience by using the
-                        <a class="theme-link" href="https://marketplace.visualstudio.com/items?itemName=jleeson.vscode-exalt" target="_blank">Exalt VSCode Extension</a>.
+                        <a class="theme-link" href="https://marketplace.visualstudio.com/items?itemName=jleeson.vscode-exalt" target="_blank" ref="noopener noreferrer">Exalt VSCode Extension</a>.
                         This extension provides support for syntax highlighting, auto completion, and intellisense for Exalt templates.
                     </p>
                 </section>

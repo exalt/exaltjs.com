@@ -66,9 +66,10 @@ export class HeroSection extends Component {
                                     <option>Build your own Toolchain</option>
 
                                     <option>Exalt Router</option>
-                                    <option>Router</option>
-                                    <option>Route</option>
-                                    <option>Link</option>
+                                    <option>Router Component</option>
+                                    <option>Route Component</option>
+                                    <option>Link Component</option>
+                                    <option>Redirect Component</option>
 
                                     <option>Exalt SSR</option>
                                     <option>Loading your App</option>

@@ -78,9 +78,10 @@ export class DocsSidebar extends Component {
                         <nav-item title="Build your own Toolchain" url="#build-your-own-toolchain" />
             
                         <nav-item-title title="Exalt Router" icon="fa-route" url="#exalt-router" />
-                        <nav-item title="Router" url="#exalt-router" />
-                        <nav-item title="Route" url="#exalt-route" />
-                        <nav-item title="Link" url="#exalt-link" />
+                        <nav-item title="Router Component" url="#router-component" />
+                        <nav-item title="Route Component" url="#route-component" />
+                        <nav-item title="Link Component" url="#link-component" />
+                        <nav-item title="Redirect Component" url="#redirect-component" />
             
                         <nav-item-title title="Exalt SSR" icon="fa-cogs" url="#exalt-ssr" />
                         <nav-item title="Loading your App" url="#loading-your-app" />

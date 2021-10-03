@@ -5,8 +5,6 @@ import "@fortawesome/fontawesome-free/js/all";
 import "@exalt/router";
 import "@components/app-header";
 import "@components/app-footer";
-import "@pages/home-page";
-import "@pages/docs-page";
 import "./index.css";
 
 
@@ -17,8 +15,8 @@ export class App extends Component {
         return html`
             <app-header />
             <exalt-router>
-                <exalt-route url="/" component="home-page" />
-                <exalt-route url="/docs" component="docs-page" />
+                <exalt-route url="/" component="home-page" onresolve=${() => import("@pages/home-page")} />
+                <exalt-route url="/docs" component="docs-page" onresolve=${() => import("@pages/docs-page")} />
             </exalt-router>
             <app-footer />
         `;

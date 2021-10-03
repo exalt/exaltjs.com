@@ -9,7 +9,8 @@
     },
     "dependencies": {
         "@exalt/core": "^1.0.0",
-        "@exalt/router": "^1.0.0",
+        "@exalt/router": "^1.1.0",
+        "@exalt/ssr": "^1.0.2",
         "@fortawesome/fontawesome-free": "^5.15.4",
         "@popperjs/core": "^2.10.1",
         "bootstrap": "^5.1.1",
@@ -17,6 +18,6 @@
     },
     "devDependencies": {
         "@exalt/cli": "^1.0.0",
-        "@exalt/toolchain": "^1.0.0"
+        "@exalt/toolchain": "^1.0.1"
     }
 }

@@ -33,7 +33,7 @@ export class DocsCore extends Component {
                         Component names must have a hypen in the name as required by the custom elements standard.
                         By Default Exalt components make use of the <a class="theme-link"
                             href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"
-                            target="_blank">Shadow DOM</a> in order to provide encapsulation.
+                            target="_blank" ref="noopener noreferrer">Shadow DOM</a> in order to provide encapsulation.
                         This can easily be disabled using the component options.
                     </p>
                     <p>

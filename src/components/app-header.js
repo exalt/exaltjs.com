@@ -25,13 +25,13 @@ export class Header extends Component {
                         <div class="docs-top-utilities d-flex justify-content-end align-items-center">
                             <ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
                                 <li class="list-inline-item">
-                                    <a href="https://github.com/exalt/exalt" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+                                    <a href="https://github.com/exalt/exalt" target="_blank" ref="noopener noreferrer"><i class="fab fa-github fa-fw"></i></a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="https://twitter.com/exaltjs"><i class="fab fa-twitter fa-fw"></i></a>
                                 </li>
                             </ul>
-                            <a href="https://www.npmjs.com/package/@exalt/core" target="_blank"
+                            <a href="https://www.npmjs.com/package/@exalt/core" target="_blank" ref="noopener noreferrer"
                                 class="btn btn-primary d-none d-lg-flex">Download</a>
                         </div>
                     </div>
